@@ -1,2 +1,1 @@
-https://sushi-website-v1.vercel.app/
-
+https://sushi-website-main.vercel.app/
