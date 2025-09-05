@@ -1,0 +1,55 @@
+.header__nav{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.header__logo{
+    display: flex;
+    
+    padding: 24px  0px;
+    max-width: 600px;
+    position: relative;
+    font-family: var(--logo-font);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.header__logo h4{
+    font-family: var(--logo-font);
+    color: var(--primary-color);
+}
+
+
+
+.header__menu {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    display: flex;
+    /* padding: 24px; */
+    align-items: center;
+    gap:24px;
+    
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+ul {
+    list-style: none; /* Removes bullets */
+    padding: 0;  /* Removes default padding */
+    margin: 0;   /* Removes default margin */
+    
+}
+
+.header__menu-mobile{
+    display: none;
+}

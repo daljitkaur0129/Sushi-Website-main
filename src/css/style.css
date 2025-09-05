@@ -1,0 +1,78 @@
+/* css sections   */
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/about.css");
+@import url("./sections/popular.css");
+@import url("./sections/trending.css");
+@import url("./sections/subscription.css");
+@import url("./sections/footer.css");
+
+:root {
+    --primary-color: #a84d58;  /* Define a variable */
+    --on-background:#33292a;
+    --Primary-30:#cca7ab;
+    --Primary-10:#ffefde;
+    --logo-font:"Bytesized";
+    --primary-font:"Inter","san-serif";
+
+    --size1:1rem;
+    --size2:2rem;
+    --size3:3rem;
+    --size4:4rem;
+    --size5:5rem;
+    --size6:6rem;
+    --size7:7rem;
+}
+
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    }
+
+
+    html {
+        height: 100%;
+        }
+        body {
+        min-height: 100%;
+        }
+
+    
+
+
+/* utility Classes*/
+
+.paragraph{
+    font-size: var(--size1);
+    font-family: var(--primary-font);
+    line-height: 120%;
+    min-width: 0;
+}
+
+.sushi-title{
+    font-size: var(--size4);
+    font-family: var(--primary-font);
+    line-height: 95%;
+    color: var(--on-background);
+    min-width: 0;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-white{
+    color: var(--Primary-10);
+}

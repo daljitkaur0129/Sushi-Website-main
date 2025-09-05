@@ -1,0 +1,31 @@
+.footer{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    
+}
+
+.footer__logo{
+    font-family: var(--logo-font);
+    color: var(--primary-color);
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer__social{
+    display: flex;
+    gap: 24px;
+}
+.footer__social li{
+    background-color: black;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
